@@ -40,7 +40,25 @@ At the summit awaits the Enforcer—and the revelation that the loop is a bootst
 
 ---
 
-## [03] OPERATOR MANUAL // CONTROLS
+## [03] SECTOR MAPS // ENVIRONMENT DESIGN
+
+<div align="center">
+
+| SECTOR 01: ROOFTOP SKYLINE | INDUSTRIAL CRANE CROSSING |
+| :---: | :---: |
+| <img src="playtest_shots/CITY_1_start.png" width="440" alt="Sector 01 Skyline"/> | <img src="playtest_shots/CITY_4_crane_end.png" width="440" alt="Industrial Crane Crossing"/> |
+| *High-altitude metropolis sector entry & architectural depth* | *Suspended industrial superstructure and platform pathways* |
+
+| AERIAL PATROL FLEET | CITADEL UPPER COMBAT ARENA |
+| :---: | :---: |
+| <img src="playtest_shots/CITY_8_heli_fleet.png" width="440" alt="Aerial Patrol Fleet"/> | <img src="playtest_shots/A1_arena_overview.png" width="440" alt="Upper Combat Arena"/> |
+| *Autonomous corporate gunship fleet overhead surveillance* | *Wide-angle structural arena overview and battle terrain* |
+
+</div>
+
+---
+
+## [04] OPERATOR MANUAL // CONTROLS
 
 | Action | Keyboard | Gamepad | Mobile Touch |
 | :--- | :--- | :--- | :--- |
@@ -54,7 +72,7 @@ At the summit awaits the Enforcer—and the revelation that the loop is a bootst
 
 ---
 
-## [04] REPOSITORY STRUCTURE
+## [05] REPOSITORY STRUCTURE
 
 ```
 dystopia---genesis/
@@ -74,13 +92,14 @@ dystopia---genesis/
 │   ├── city.gd           # Level generation, collision boundaries, backdrop logic
 │   ├── villain.gd        # Enemy AI, aggression range, attack routines
 │   └── controls.gd       # Global input mapper autoload
+├── playtest_shots/       # Environment captures and level documentation
 ├── project.godot          # Godot 4.6 project configuration and Jolt setup
 └── README.md             # Project technical dossier
 ```
 
 ---
 
-## [05] BUILD & RUN INSTRUCTIONS
+## [06] BUILD & RUN INSTRUCTIONS
 
 ### System Requirements
 - **Godot Engine 4.6+** (Standard 64-bit build)
@@ -96,7 +115,7 @@ dystopia---genesis/
 
 ---
 
-## [06] DEVELOPMENT ROADMAP
+## [07] DEVELOPMENT ROADMAP
 
 - [x] 2.5D Y-Billboard physics and movement pipeline
 - [x] Multi-directional sprite animation sets
