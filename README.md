@@ -1,7 +1,5 @@
 ﻿<div align="center">
 
-  <img src="assets/ui/quantum_pixels_intro.gif" alt="Quantum Pixels Studio Intro" width="560"/>
-  <br/><br/>
   <img src="assets/ui/logo.png" alt="KALKII Genesis" width="600"/>
 
   # KALKII : Genesis
@@ -13,6 +11,9 @@
   [![Engine](https://img.shields.io/badge/Engine-Godot%204.6-478CBF?logo=godotengine&logoColor=white)](https://godotengine.org/)
   [![Physics](https://img.shields.io/badge/Physics-Jolt%203D-d6336c)](https://github.com/godot-jolt/godot-jolt)
   [![Platform](https://img.shields.io/badge/Platform-Steam%20%7C%20Android-green)](#)
+
+  <br/><br/>
+  <img src="assets/ui/quantum_pixels_intro.gif" alt="Quantum Pixels Studio Intro" width="600"/>
 
 </div>
 
@@ -83,7 +84,7 @@ dystopia---genesis/
 │   ├── player.gd         # Character state machine, physics, and combat logic
 │   ├── city.gd           # Stage generation, bounds, and level logic
 │   ├── villain.gd        # Enemy state logic and combat routines
-│   └── controls.gd       # Global input mapping autoload
+│   └── controls.gd       # Global input mapper autoload
 ├── project.godot          # Engine project configuration
 ├── LICENSE               # Proprietary license agreement
 └── README.md             # Project presentation
