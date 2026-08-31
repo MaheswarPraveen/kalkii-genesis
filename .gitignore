@@ -1,4 +1,4 @@
-# Godot 4+ specific ignores
+﻿# Godot 4+ specific ignores
 .godot/
 /android/
 
@@ -17,3 +17,16 @@
 .DS_Store
 Thumbs.db
 *.log
+
+# Internal dev & test harness ignores
+.offgit/
+/playtest_shots/
+/ziva_installer/
+/addons/
+*.txt
+CLAUDE.md
+CONTEXT.md
+STORY_AND_STAGES.md
+USER_GAME_DIRECTIVES.txt
+scenes/_*
+scripts/*playtest*

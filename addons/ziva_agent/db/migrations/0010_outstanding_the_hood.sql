@@ -1,1 +1,0 @@
-ALTER TABLE `chats` ADD `context_flags` integer DEFAULT 4 NOT NULL;
