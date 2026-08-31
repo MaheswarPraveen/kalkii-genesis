@@ -40,30 +40,7 @@ At the summit awaits the Enforcer—and the revelation that the loop is a bootst
 
 ---
 
-## [03] FIELD RECON // GAMEPLAY PREVIEWS
-
-<div align="center">
-
-| COMBAT & MELEE COMBOS | PARTICLE LASER WEAPONRY |
-| :---: | :---: |
-| <img src="playtest_shots/06_punch.png" width="440" alt="Melee Combat"/> | <img src="playtest_shots/B3_gun_laser.png" width="440" alt="Laser Combat"/> |
-| *Close-quarters kinetic punch combo execution* | *High-energy particle beam discharge* |
-
-| METROPOLIS SKYLINE & CRANES | GUNSHIP FLEET PATROLS |
-| :---: | :---: |
-| <img src="playtest_shots/CITY_1_start.png" width="440" alt="City Exploration"/> | <img src="playtest_shots/CITY_8_heli_fleet.png" width="440" alt="Helicopter Fleet"/> |
-| *Rooftop traversal and industrial verticality* | *Autonomous gunship fleet patrol encounter* |
-
-| OVERDRIVE ABILITY DISCHARGE | TACTICAL BOSS ENGAGEMENT |
-| :---: | :---: |
-| <img src="playtest_shots/07_super_a.png" width="440" alt="Super Attack"/> | <img src="playtest_shots/F5_combat_hp.png" width="440" alt="Boss Combat"/> |
-| *Overdrive ability spool-up phase* | *Tactical encounter with real-time HUD monitoring* |
-
-</div>
-
----
-
-## [04] OPERATOR MANUAL // CONTROLS
+## [03] OPERATOR MANUAL // CONTROLS
 
 | Action | Keyboard | Gamepad | Mobile Touch |
 | :--- | :--- | :--- | :--- |
@@ -77,7 +54,7 @@ At the summit awaits the Enforcer—and the revelation that the loop is a bootst
 
 ---
 
-## [05] REPOSITORY STRUCTURE
+## [04] REPOSITORY STRUCTURE
 
 ```
 dystopia---genesis/
@@ -97,14 +74,13 @@ dystopia---genesis/
 │   ├── city.gd           # Level generation, collision boundaries, backdrop logic
 │   ├── villain.gd        # Enemy AI, aggression range, attack routines
 │   └── controls.gd       # Global input mapper autoload
-├── playtest_shots/       # Captured playtest and gameplay documentation
 ├── project.godot          # Godot 4.6 project configuration and Jolt setup
 └── README.md             # Project technical dossier
 ```
 
 ---
 
-## [06] BUILD & RUN INSTRUCTIONS
+## [05] BUILD & RUN INSTRUCTIONS
 
 ### System Requirements
 - **Godot Engine 4.6+** (Standard 64-bit build)
@@ -120,7 +96,7 @@ dystopia---genesis/
 
 ---
 
-## [07] DEVELOPMENT ROADMAP
+## [06] DEVELOPMENT ROADMAP
 
 - [x] 2.5D Y-Billboard physics and movement pipeline
 - [x] Multi-directional sprite animation sets
