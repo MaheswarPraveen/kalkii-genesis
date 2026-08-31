@@ -1,10 +1,14 @@
 ﻿<div align="center">
 
+  <img src="assets/ui/quantum_pixels_intro.gif" alt="Quantum Pixels Studio Intro" width="560"/>
+  <br/><br/>
   <img src="assets/ui/logo.png" alt="KALKII Genesis" width="600"/>
 
   # KALKII : Genesis
   ### A 2.5D Cyberpunk Action-Shooter
+  **A Production by Quantum Pixels**
 
+  [![Studio](https://img.shields.io/badge/Studio-Quantum%20Pixels-00e5ff)](#)
   [![License](https://img.shields.io/badge/License-Proprietary%20%7C%20All%20Rights%20Reserved-red)](#license)
   [![Engine](https://img.shields.io/badge/Engine-Godot%204.6-478CBF?logo=godotengine&logoColor=white)](https://godotengine.org/)
   [![Physics](https://img.shields.io/badge/Physics-Jolt%203D-d6336c)](https://github.com/godot-jolt/godot-jolt)
@@ -16,7 +20,7 @@
 
 ## Overview
 
-**KALKII : Genesis** is a story-driven 2.5D action shooter set in a dystopian cyberpunk metropolis. The game combines high-definition 2D sprite character animation with a full 3D environment—delivering responsive real-time combat, geometric depth, and dynamic lighting.
+**KALKII : Genesis** is a story-driven 2.5D action shooter set in a dystopian cyberpunk metropolis. Developed under the studio banner **Quantum Pixels**, the game combines high-definition 2D sprite character animation with a full 3D environment—delivering responsive real-time combat, geometric depth, and dynamic lighting.
 
 ---
 
@@ -66,7 +70,7 @@ Set in the near future, the story follows a protagonist trapped in a temporal ca
 dystopia---genesis/
 ├── assets/
 │   ├── sprites/          # Character animation sets, environment decors, props
-│   ├── ui/               # Interface assets, HUD components, title branding
+│   ├── ui/               # Interface assets, studio intro animation, title branding
 │   └── video/            # Cinematic sequences
 ├── scenes/
 │   ├── intro.tscn        # Title sequence and main entry scene
@@ -89,12 +93,12 @@ dystopia---genesis/
 
 ## License
 
-Copyright © 2026 **Maheswar Praveen**. All Rights Reserved.
+Copyright © 2026 **Maheswar Praveen** (Quantum Pixels). All Rights Reserved.
 
 This project, source code, and all associated artistic and audio assets are proprietary and confidential. No part of this software may be copied, modified, distributed, reverse-engineered, or used in any form without prior written authorization from the author.
 
 ---
 
 <div align="center">
-  <sub>KALKII : Genesis • Developed by <b>Maheswar Praveen</b></sub>
+  <sub>KALKII : Genesis • Developed by <b>Maheswar Praveen</b> (Quantum Pixels)</sub>
 </div>
