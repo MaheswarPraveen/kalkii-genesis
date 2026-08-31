@@ -3,7 +3,7 @@
   <img src="assets/ui/logo.png" alt="KALKII Genesis" width="600"/>
 
   # KALKII : Genesis
-  ### A 2.5D Cyberpunk Action-Shooter by Quantum Pixels
+  ### A 2.5D Cyberpunk Action-Shooter
 
   [![License](https://img.shields.io/badge/License-Proprietary%20%7C%20All%20Rights%20Reserved-red)](#license)
   [![Engine](https://img.shields.io/badge/Engine-Godot%204.6-478CBF?logo=godotengine&logoColor=white)](https://godotengine.org/)
@@ -16,7 +16,7 @@
 
 ## Overview
 
-**KALKII : Genesis** is a story-driven 2.5D action shooter set in a dystopian cyberpunk metropolis. Developed by Quantum Pixels, the game combines high-definition 2D sprite character animation with a full 3D environment—delivering responsive real-time combat, geometric depth, and dynamic lighting.
+**KALKII : Genesis** is a story-driven 2.5D action shooter set in a dystopian cyberpunk metropolis. The game combines high-definition 2D sprite character animation with a full 3D environment—delivering responsive real-time combat, geometric depth, and dynamic lighting.
 
 ---
 
@@ -81,7 +81,7 @@ dystopia---genesis/
 │   ├── villain.gd        # Enemy state logic and combat routines
 │   └── controls.gd       # Global input mapping autoload
 ├── project.godot          # Engine project configuration
-├── LICENSE               # Quantum Pixels proprietary license agreement
+├── LICENSE               # Proprietary license agreement
 └── README.md             # Project presentation
 ```
 
@@ -89,12 +89,12 @@ dystopia---genesis/
 
 ## License
 
-Copyright © 2026 **Quantum Pixels**. All Rights Reserved.
+Copyright © 2026 **Maheswar Praveen**. All Rights Reserved.
 
-This project, source code, and all associated artistic and audio assets are proprietary and confidential. No part of this software may be copied, modified, distributed, reverse-engineered, or used in any form without prior written authorization from Quantum Pixels.
+This project, source code, and all associated artistic and audio assets are proprietary and confidential. No part of this software may be copied, modified, distributed, reverse-engineered, or used in any form without prior written authorization from the author.
 
 ---
 
 <div align="center">
-  <sub>Developed by <b>Quantum Pixels</b> • Directed by <b>Maheswar Praveen</b></sub>
+  <sub>KALKII : Genesis • Developed by <b>Maheswar Praveen</b></sub>
 </div>
