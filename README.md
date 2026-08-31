@@ -5,7 +5,7 @@
   # KALKII : Genesis
   ### A 2.5D Cyberpunk Action-Shooter by Quantum Pixels
 
-  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  [![License](https://img.shields.io/badge/License-Proprietary%20%7C%20All%20Rights%20Reserved-red)](#license)
   [![Engine](https://img.shields.io/badge/Engine-Godot%204.6-478CBF?logo=godotengine&logoColor=white)](https://godotengine.org/)
   [![Physics](https://img.shields.io/badge/Physics-Jolt%203D-d6336c)](https://github.com/godot-jolt/godot-jolt)
   [![Platform](https://img.shields.io/badge/Platform-Steam%20%7C%20Android-green)](#)
@@ -81,7 +81,7 @@ dystopia---genesis/
 │   ├── villain.gd        # Enemy state logic and combat routines
 │   └── controls.gd       # Global input mapping autoload
 ├── project.godot          # Engine project configuration
-├── LICENSE               # GNU General Public License v3.0
+├── LICENSE               # Quantum Pixels proprietary license agreement
 └── README.md             # Project presentation
 ```
 
@@ -89,7 +89,9 @@ dystopia---genesis/
 
 ## License
 
-This project is licensed under the terms of the **GNU General Public License v3.0 (GPL-3.0)**. See the [LICENSE](LICENSE) file for complete details.
+Copyright © 2026 **Quantum Pixels**. All Rights Reserved.
+
+This project, source code, and all associated artistic and audio assets are proprietary and confidential. No part of this software may be copied, modified, distributed, reverse-engineered, or used in any form without prior written authorization from Quantum Pixels.
 
 ---
 
