@@ -1,0 +1,61 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/intro.gd" id="1"]
+[ext_resource type="VideoStream" path="res://assets/video/intro.ogv" id="2"]
+[ext_resource type="Texture2D" path="res://assets/ui/logo.png" id="3"]
+
+[node name="Intro" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+script = ExtResource("1")
+
+[node name="BG" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Video" type="VideoStreamPlayer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+stream = ExtResource("2")
+expand = true
+
+[node name="LogoLayer" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+
+[node name="Logo" type="TextureRect" parent="LogoLayer"]
+layout_mode = 1
+anchor_left = 0.25
+anchor_top = 0.22
+anchor_right = 0.75
+anchor_bottom = 0.66
+mouse_filter = 2
+texture = ExtResource("3")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="TapLabel" type="Label" parent="LogoLayer"]
+layout_mode = 1
+anchor_left = 0.0
+anchor_top = 0.78
+anchor_right = 1.0
+anchor_bottom = 0.86
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 34
+text = "TAP TO PLAY"
+horizontal_alignment = 1
+vertical_alignment = 1

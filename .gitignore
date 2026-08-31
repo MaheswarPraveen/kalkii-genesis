@@ -1,0 +1,19 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Godot import cache and temp files
+*.tmp
+*.TMP
+*~*
+~*
+*.translation
+
+# Build exports
+/build/
+/export/
+
+# System / Editor ignores
+.DS_Store
+Thumbs.db
+*.log

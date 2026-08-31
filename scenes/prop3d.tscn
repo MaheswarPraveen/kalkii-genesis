@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://prop3d_scene_01"]
+
+[ext_resource type="Script" path="res://scripts/prop3d.gd" id="1_prop3d"]
+
+[node name="Prop3D" type="Sprite3D"]
+script = ExtResource("1_prop3d")
+prop_index = 0
+height = 5.0

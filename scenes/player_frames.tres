@@ -1,0 +1,119 @@
+[gd_resource type="SpriteFrames" load_steps=45 format=3 uid="uid://nx8y56brpkyu"]
+
+[ext_resource type="Texture2D" uid="uid://cw6dr6jd2811t" path="res://assets/sprites/player/walk/walk_0.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://m643y0qgmjji" path="res://assets/sprites/player/walk/walk_1.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://b4jn0khbc1lfy" path="res://assets/sprites/player/walk/walk_2.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://qfowuel04jvf" path="res://assets/sprites/player/player_front.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://cxrxbxb6wtlj2" path="res://assets/sprites/player/player_back.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://cngpudegdhf1m" path="res://assets/sprites/player/punch/punch_0.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://cgfdsl6uvee1q" path="res://assets/sprites/player/punch/punch_1.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://d1l1tdcmbfrq6" path="res://assets/sprites/player/punch/punch_2.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://dj6c2sd2rj68y" path="res://assets/sprites/player/walk/walk_back_0.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://cw7lcve62cq13" path="res://assets/sprites/player/walk/walk_back_1.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://horvoi68i8mt" path="res://assets/sprites/player/walk/walk_back_2.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://b5xf23chyeh7d" path="res://assets/sprites/player/walk/walk_front_0.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://bfdf5jxaukjd1" path="res://assets/sprites/player/walk/walk_front_1.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://c43n5ndnq6haf" path="res://assets/sprites/player/walk/walk_front_2.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://cqg4geb8aoo56" path="res://assets/sprites/player/walk/walk_3.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://x5n8qlclt8tr" path="res://assets/sprites/player/punch/punch2_0.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://b6uyt7fedbo3p" path="res://assets/sprites/player/punch/punch2_1.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://c3buld3bofntu" path="res://assets/sprites/player/punch/punch2_2.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://bvo2tl63mb3b0" path="res://assets/sprites/player/punch/punch2_3.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://bmyauybd5t0yg" path="res://assets/sprites/player/jump/jump_0.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://c6ervcey841ae" path="res://assets/sprites/player/jump/jump_1.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://chxxpq0nq0lcd" path="res://assets/sprites/player/jump/jump_2.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://y1s0cfnc2l6c" path="res://assets/sprites/player/jump/jump_3.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://cr3ue8ub3ybsh" path="res://assets/sprites/player/super/super_0.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://bciy62u6qolfy" path="res://assets/sprites/player/super/super_1.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://bdr3trxm1d1at" path="res://assets/sprites/player/super/super_2.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://bjlvv5caur3q8" path="res://assets/sprites/player/super/super_3.png" id="27"]
+[ext_resource type="Texture2D" path="res://assets/sprites/player/run/run_0.png" id="28"]
+[ext_resource type="Texture2D" path="res://assets/sprites/player/run/run_1.png" id="29"]
+[ext_resource type="Texture2D" path="res://assets/sprites/player/run/run_2.png" id="30"]
+[ext_resource type="Texture2D" path="res://assets/sprites/player/run/run_3.png" id="31"]
+[ext_resource type="Texture2D" path="res://assets/sprites/player/kick/kick_0.png" id="32"]
+[ext_resource type="Texture2D" path="res://assets/sprites/player/kick/kick_1.png" id="33"]
+[ext_resource type="Texture2D" path="res://assets/sprites/player/kick/kick_2.png" id="34"]
+[ext_resource type="Texture2D" path="res://assets/sprites/player/kick/stylish_0.png" id="35"]
+[ext_resource type="Texture2D" path="res://assets/sprites/player/kick/stylish_1.png" id="36"]
+[ext_resource type="Texture2D" path="res://assets/sprites/player/kick/stylish_2.png" id="37"]
+[ext_resource type="Texture2D" path="res://assets/sprites/player/jump/jumppunch_0.png" id="38"]
+[ext_resource type="Texture2D" path="res://assets/sprites/player/jump/jumppunch_1.png" id="39"]
+[ext_resource type="Texture2D" path="res://assets/sprites/player/jump/jumppunch_2.png" id="40"]
+[ext_resource type="Texture2D" path="res://assets/sprites/player/jump/jumppunch_3.png" id="41"]
+[ext_resource type="Texture2D" path="res://assets/sprites/player/jump/jumpkick_0.png" id="42"]
+[ext_resource type="Texture2D" path="res://assets/sprites/player/jump/jumpkick_1.png" id="43"]
+[ext_resource type="Texture2D" path="res://assets/sprites/player/jump/jumpkick_2.png" id="44"]
+
+[resource]
+animations = [{
+"frames": [{"duration": 1.0, "texture": ExtResource("1")}, {"duration": 1.0, "texture": ExtResource("2")}, {"duration": 1.0, "texture": ExtResource("3")}, {"duration": 1.0, "texture": ExtResource("15")}],
+"loop": true,
+"name": &"walk",
+"speed": 8.0
+}, {
+"frames": [{"duration": 1.0, "texture": ExtResource("12")}, {"duration": 1.0, "texture": ExtResource("13")}, {"duration": 1.0, "texture": ExtResource("14")}, {"duration": 1.0, "texture": ExtResource("13")}],
+"loop": true,
+"name": &"walk_front",
+"speed": 8.0
+}, {
+"frames": [{"duration": 1.0, "texture": ExtResource("9")}, {"duration": 1.0, "texture": ExtResource("10")}, {"duration": 1.0, "texture": ExtResource("11")}, {"duration": 1.0, "texture": ExtResource("10")}],
+"loop": true,
+"name": &"walk_back",
+"speed": 8.0
+}, {
+"frames": [{"duration": 1.0, "texture": ExtResource("4")}],
+"loop": false,
+"name": &"front",
+"speed": 5.0
+}, {
+"frames": [{"duration": 1.0, "texture": ExtResource("5")}],
+"loop": false,
+"name": &"back",
+"speed": 5.0
+}, {
+"frames": [{"duration": 1.0, "texture": ExtResource("6")}, {"duration": 1.0, "texture": ExtResource("7")}, {"duration": 2.8, "texture": ExtResource("8")}],
+"loop": false,
+"name": &"punch",
+"speed": 9.0
+}, {
+"frames": [{"duration": 1.0, "texture": ExtResource("16")}, {"duration": 1.0, "texture": ExtResource("17")}, {"duration": 1.0, "texture": ExtResource("18")}, {"duration": 2.8, "texture": ExtResource("19")}],
+"loop": false,
+"name": &"punch2",
+"speed": 9.0
+}, {
+"frames": [{"duration": 1.0, "texture": ExtResource("20")}, {"duration": 1.0, "texture": ExtResource("21")}, {"duration": 1.0, "texture": ExtResource("22")}, {"duration": 1.0, "texture": ExtResource("23")}],
+"loop": false,
+"name": &"jump",
+"speed": 5.0
+}, {
+"frames": [{"duration": 1.0, "texture": ExtResource("24")}, {"duration": 1.0, "texture": ExtResource("25")}, {"duration": 1.0, "texture": ExtResource("26")}, {"duration": 1.0, "texture": ExtResource("27")}, {"duration": 1.0, "texture": ExtResource("24")}],
+"loop": false,
+"name": &"super",
+"speed": 7.0
+}, {
+"frames": [{"duration": 1.0, "texture": ExtResource("28")}, {"duration": 1.0, "texture": ExtResource("29")}, {"duration": 1.0, "texture": ExtResource("30")}, {"duration": 1.0, "texture": ExtResource("31")}],
+"loop": true,
+"name": &"run",
+"speed": 10.0
+}, {
+"frames": [{"duration": 1.0, "texture": ExtResource("32")}, {"duration": 1.0, "texture": ExtResource("33")}, {"duration": 1.0, "texture": ExtResource("34")}],
+"loop": false,
+"name": &"kick",
+"speed": 9.0
+}, {
+"frames": [{"duration": 1.0, "texture": ExtResource("35")}, {"duration": 1.0, "texture": ExtResource("36")}, {"duration": 1.0, "texture": ExtResource("37")}],
+"loop": false,
+"name": &"stylish",
+"speed": 8.0
+}, {
+"frames": [{"duration": 1.0, "texture": ExtResource("38")}, {"duration": 1.0, "texture": ExtResource("39")}, {"duration": 1.0, "texture": ExtResource("40")}, {"duration": 2.5, "texture": ExtResource("41")}],
+"loop": false,
+"name": &"jumppunch",
+"speed": 7.0
+}, {
+"frames": [{"duration": 1.0, "texture": ExtResource("42")}, {"duration": 1.0, "texture": ExtResource("43")}, {"duration": 2.5, "texture": ExtResource("44")}],
+"loop": false,
+"name": &"jumpkick",
+"speed": 8.0
+}]
