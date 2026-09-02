@@ -92,7 +92,7 @@ dystopia---genesis/
 
 ## License
 
-Copyright © 2026 **Maheswar Praveen** (Quantum Pixels). All Rights Reserved.
+Copyright © 2026 **Maheswar Praveen** . All Rights Reserved.
 
 This project, source code, and all associated artistic and audio assets are proprietary and confidential. No part of this software may be copied, modified, distributed, reverse-engineered, or used in any form without prior written authorization from the author.
 
