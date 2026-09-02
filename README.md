@@ -3,8 +3,6 @@
   <img src="assets/ui/logo.png" alt="KALKII Genesis" width="600"/>
 
   # KALKII : Genesis
-  ### A 2.5D Cyberpunk Action-Shooter
-  **A Production by Quantum Pixels**
 
   [![Studio](https://img.shields.io/badge/Studio-Quantum%20Pixels-00e5ff)](#)
   [![License](https://img.shields.io/badge/License-Proprietary%20%7C%20All%20Rights%20Reserved-red)](#license)
